@@ -1,7 +1,7 @@
 # ParallelStreams
 Benchmarking parallel streams performance
 
-These programs benchmarks the performance of a summation process using traditional for loops versus using streams along with parallel streams. It also demonstrates the use of Forj/Join pool to see how parallel streams leverages it.
+These programs benchmarks the performance of a summation process using traditional for loops versus using streams along with parallel streams. It also demonstrates the use of Fork/Join pool to see how parallel streams leverages it.
 Here are the results:
 
 1. Sequential stream sum took 107 ms - largely due to the overhead of boxing/unboxing of obejcts
